@@ -7,7 +7,7 @@ const Contact = () => {
         brody.allen.clark@gmail.com
       </p>
       <a
-        href="brody.allen.clark@gmail.com"
+        href="mailto:brody.allen.clark@gmail.com"
         className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition"
       >
         Email Me
