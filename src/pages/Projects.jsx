@@ -27,10 +27,11 @@ const Projects = () => {
         Projects
       </h2>
       <div className="grid md:grid-cols-3 gap-8">
-        {projects.map(({ title, description, live, code }) => (
+        {projects.map(({ title, description, live, code }, index) => (
           <div
             key={title}
-            className="bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-700 hover:scale-105 transition"
+            className={`bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-700 hover:scale-105 transition opacity-0 animate-fade-in-up`}
+            style={{ animationDelay: `${index * 0.1}s` }}
           >
             <h3 className="text-xl font-bold mb-2 text-white">{title}</h3>
             <p className="text-gray-400 mb-4">{description}</p>
