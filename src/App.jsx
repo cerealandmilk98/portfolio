@@ -15,7 +15,7 @@ function App() {
     // Inject Google Analytics
     const script1 = document.createElement("script");
     script1.setAttribute("async", "");
-    script1.src = "https://www.googletagmanager.com/gtag/js?id=G-12P3963XTF";
+    script1.src = "https://www.googletagmanager.com/gtag/js?id=G-12PS3GETXF";
     document.head.appendChild(script1);
 
     const script2 = document.createElement("script");
@@ -23,7 +23,7 @@ function App() {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-12P3963XTF');
+      gtag('config', 'G-12PS3GETXF');
     `;
     document.head.appendChild(script2);
   }, []);
